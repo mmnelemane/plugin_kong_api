@@ -2,7 +2,7 @@ local typedefs = require "kong.db.schema.typedefs"
 
 
 return {
-  name = "key-auth",
+  name = "mock",
   fields = {
     { consumer = typedefs.no_consumer },
     { protocols = typedefs.protocols_http },
